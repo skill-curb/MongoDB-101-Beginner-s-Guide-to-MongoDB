@@ -1,0 +1,29 @@
+//Customer Collection
+db.customer.insertMany([
+{"name":"John",
+ "age":28,
+ "from":["London","UK"],
+ "contact":{
+     "id":1234,
+     "email":"John@abc.com",
+     "fax":12345
+}
+},
+{
+"name":"Mark",
+"age":32,
+"from":["Berlin","Germany"],
+"contact": {
+     "id":2345,
+     "email":"Mark@abc.com",
+     "fax":123456}
+}])
+
+
+
+
+
+
+
+$set:{paymentMethod:[{cardNo:12345678, expiryDate:"02/24"},{cardNo:352087689, expiryDate:"08/26"}]}
+

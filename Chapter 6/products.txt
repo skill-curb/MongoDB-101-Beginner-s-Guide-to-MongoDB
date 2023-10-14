@@ -1,0 +1,8 @@
+
+
+db.products.insertMany([{_id:123,name:"Shirt",color:"blue"},
+{_id:345,name:"Book",author:"John Smith"},
+{_id:456,name:"TV", brand:"LG"},
+{_id:12,name:"Book",author:["John Smith","Kelly M"]},
+{_id:34,name:"Car", company:"Honda"},
+{_id:567,name:"Car",company:"Toyota"}])

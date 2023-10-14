@@ -1,0 +1,11 @@
+//Contact Collection
+{
+"id":1234,
+"email":"John@abc.com",
+"fax":12345
+},
+{
+"id":2345,
+"email":"Mark@abc.com",
+"fax":123456
+}
